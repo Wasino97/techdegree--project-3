@@ -12,6 +12,7 @@
     color: whitesmoke;
     padding: 2rem;
     margin: auto;
+    max-width: 100vw;
     background-color: rgb(0, 34, 128);
 }
 
@@ -58,6 +59,7 @@ select:first-child {
     margin-top: 1.25rem;
 }
 
+
 .news_check {
   text-align: left;
   padding: 1rem;
@@ -69,10 +71,11 @@ select:first-child {
 
 .text {
     margin-left: 1rem;
+    
 }
 
 #comment {
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 #button {
@@ -80,13 +83,23 @@ select:first-child {
     background-color: rgb(66, 216, 201);
     color:whitesmoke;
     border-radius: 5px;
+    width: -webkit-fill-available;
+}
+
+.box:focus {
+    background: rgb(255, 255, 255);
+    color: black;
+    border-color: cornflowerblue;
 }
 
 
 @media screen and (min-width:768px) {
     *{
-    max-width: 80rem;
     margin: auto;
+    }
+    
+    #vw {
+        max-width: 60vw;
     }
 
     #intro {
@@ -101,6 +114,15 @@ select:first-child {
         margin: 1rem;
     }
 
+    .form {
+        display: inherit;
+        clear: both;
+        margin: 3rem auto;
+        text-align: initial;
+    }
 
+    .box {
+    margin-left: 20px;
+    }  
 }
 
