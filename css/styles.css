@@ -92,6 +92,9 @@ select:first-child {
     border-color: cornflowerblue;
 }
 
+#zip {
+    width: 50vw;
+}
 
 @media screen and (min-width:768px) {
     *{
@@ -124,5 +127,9 @@ select:first-child {
     .box {
     margin-left: 20px;
     }  
+
+    #zip {
+        width: 25%
+    }
 }
 
