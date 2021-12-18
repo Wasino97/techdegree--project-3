@@ -76,6 +76,8 @@ select:first-child {
 
 #comment {
     margin: 1rem;
+    width: 90vw;
+    height: 16vh;
 }
 
 #button {
@@ -117,19 +119,28 @@ select:first-child {
         margin: 1rem;
     }
 
-    .form {
-        display: inherit;
-        clear: both;
-        margin: 3rem auto;
-        text-align: initial;
+    #comment {
+        width: 53vw;
     }
 
-    .box {
-    margin-left: 20px;
-    }  
 
     #zip {
         width: 25%
     }
-}
 
+    .label {
+        display: flex;
+        align-self: flex-start;
+        margin: 0;
+    }
+
+    .box {
+        padding: 13px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: rgb(230, 230, 230);
+    }           
+
+    .form {
+
+    }
