@@ -98,6 +98,14 @@ select:first-child {
     width: 50vw;
 }
 
+.zip {
+display: flex;
+    flex-direction: column;
+    /* clear: both; */
+    /* margin: auto; */
+    margin-top: -3rem;
+}
+
 @media screen and (min-width:768px) {
     *{
     margin: auto;
@@ -125,22 +133,34 @@ select:first-child {
 
 
     #zip {
-        width: 25%
+        width: 25%;
+        margin-right: 48%;
     }
 
     .label {
-        display: flex;
-        align-self: flex-start;
-        margin: 0;
+        display: inline-block;
     }
 
     .box {
-        padding: 13px;
-        margin-top: 10px;
-        border-radius: 5px;
-        background-color: rgb(230, 230, 230);
+        display: inline-block;
+        width: 73%;
+        margin-top: 24px;
     }           
 
     .form {
+        display: inline-block;
+        margin: 1rem auto;
+        text-align: left;
+        width: -webkit-fill-available; 
+        text-align-last: justify;
+    }
 
+    .zip {
+        display: inline-block;
+        /* margin: 1rem; */
+        text-align: left;
+        width: -webkit-fill-available;
+        text-align-last: justify;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
     }
