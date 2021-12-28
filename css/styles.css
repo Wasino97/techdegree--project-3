@@ -65,7 +65,7 @@ select:first-child {
   padding: 1rem;
 }
 
-#html , #css , #java , #format_html{
+#html , #css , #java , #format_html {
     margin-bottom: 1rem;
 }
 
@@ -75,8 +75,8 @@ select:first-child {
 }
 
 #comment {
-    margin: 1rem;
-    width: 90vw;
+    margin: 1rem auto;
+    width: 100%;
     height: 16vh;
 }
 
@@ -85,7 +85,7 @@ select:first-child {
     background-color: rgb(66, 216, 201);
     color:whitesmoke;
     border-radius: 5px;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 .box:focus {
@@ -95,7 +95,7 @@ select:first-child {
 }
 
 #zip {
-    width: 50vw;
+    width: 50%;
 }
 
 .zip {
@@ -104,6 +104,11 @@ display: flex;
     /* clear: both; */
     /* margin: auto; */
     margin-top: -3rem;
+}
+
+#container {
+    text-align: left;
+    margin-top: 15px;
 }
 
 @media screen and (min-width:768px) {
@@ -127,10 +132,6 @@ display: flex;
         margin: 1rem;
     }
 
-    #comment {
-        width: 53vw;
-    }
-
 
     #zip {
         width: 25%;
@@ -151,7 +152,7 @@ display: flex;
         display: inline-block;
         margin: 1rem auto;
         text-align: left;
-        width: -webkit-fill-available; 
+        width: 100%; 
         text-align-last: justify;
     }
 
@@ -159,8 +160,9 @@ display: flex;
         display: inline-block;
         /* margin: 1rem; */
         text-align: left;
-        width: -webkit-fill-available;
+        width: 100%;
         text-align-last: justify;
         margin-top: -1rem;
         margin-bottom: 2rem;
     }
+}
